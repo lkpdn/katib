@@ -18,6 +18,7 @@ spec:
       containers:
       - name: vizier-suggestion-bayesianoptimization
         image: katib/suggestion-bayesianoptimization
+        imagePullPolicy: Never
         ports:
         - name: api
           containerPort: 6789

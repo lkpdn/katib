@@ -18,6 +18,7 @@ spec:
       containers:
       - name: vizier-core-rest
         image: katib/vizier-core-rest
+        imagePullPolicy: Never
         command:
           - './vizier-manager-rest'
         ports:

@@ -18,6 +18,7 @@ spec:
       containers:
       - name: vizier-suggestion-grid
         image: katib/suggestion-grid
+        imagePullPolicy: Never
         ports:
         - name: api
           containerPort: 6789

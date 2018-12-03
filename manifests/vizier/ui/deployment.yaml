@@ -18,6 +18,7 @@ spec:
       containers:
       - name: katib-ui
         image: katib/katib-ui
+        imagePullPolicy: Never
         command:
           - './katib-ui'
         ports:

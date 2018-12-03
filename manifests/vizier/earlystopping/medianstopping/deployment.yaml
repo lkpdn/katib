@@ -18,6 +18,7 @@ spec:
       containers:
       - name: vizier-earlystopping-medianstopping
         image: katib/earlystopping-medianstopping
+        imagePullPolicy: Never
         ports:
         - name: api
           containerPort: 6789
